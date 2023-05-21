@@ -3,7 +3,7 @@ import dash_bootstrap_components as dbc
 
 derecha = dbc.Container(
    [
-        html.H2('Ingrese los datos con los que cuenta'),
+        html.H2('Ingrese los datos:'),
         html.Hr(),
         html.Label('Gravedad especifica'),
         dbc.Input(value="Gs"),
@@ -15,5 +15,6 @@ derecha = dbc.Container(
         dbc.Input(value="Vt"),
         html.Label('Peso seco'),
         dbc.Input(value="Ws"),
+        html.Br()
     ]
 )
